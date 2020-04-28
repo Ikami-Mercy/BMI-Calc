@@ -24,12 +24,16 @@ class CalculatorBrain {
   }
 
   String getInterpretation() {
+    if (_bmi >= 30) {
+      return 'Your  BMI indicates that you are heavily overweight.Your health may be at risk if you don\'t lose weight. You are recommended to ask your doctor or dietitian for advice.';
+    }
     if (_bmi >= 25) {
-      return 'You  are overweight. Try to exercise more.';
-    } else if (_bmi >= 18.5) {
-      return 'You have a normal body weight. Good job!';
+      return 'Your  BMI indicates that you are slightly overweight.You are advised to lose some weight for health reasons. You are recommended to ask your doctor or dietitian for advice.';
+    }
+    else if (_bmi >= 18.5) {
+      return 'Your BMI indicates that you are healthy.By maintaining a healthy weight, you lower your risk of developing serious health problems.';
     } else {
-      return 'You are underweight. Try to eat a bit more.';
+      return 'Your BMI Indicates that you are underweight. You are recommended to ask your doctor or dietitian for advice.';
     }
   }
 }
