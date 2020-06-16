@@ -12,6 +12,10 @@ dependencies:
 
   cupertino_icons: ^0.1.2
   font_awesome_flutter: ^8.4.0
+  flutter_launcher_icons: ^0.7.5
+  animated_splash: ^1.0.0
+  flutter_statusbarcolor: ^0.2.3
+
 
 dev_dependencies:
   flutter_test:
@@ -20,6 +24,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
+  assets:
+    - images/
 
   fonts:
     - family: AvenirLTStd
