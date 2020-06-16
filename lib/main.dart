@@ -1,6 +1,6 @@
 import 'package:animated_splash/animated_splash.dart';
 import 'package:flutter/material.dart';
-import 'package:bmi_calculator/screens/input_page.dart';
+import 'package:My_BMI/screens/input_page.dart';
 import 'package:flutter_statusbarcolor/flutter_statusbarcolor.dart';
 
 void main() => runApp(BMICalculator());
